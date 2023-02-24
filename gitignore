@@ -1,0 +1,44 @@
+*/config/*/*
+!*/config/*/.gitkeep
+!*/config/*/*.example
+
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!system/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+#codeigniter 3
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+
+#IDE Meta files
+.idea/
+
+#ignore robots.txt
+robots.txt
+
+#usersonline temp file
+usersonline.tmp
+nbproject
+./oric
+
+hostel_portal/application/logs/*
+application/cache/*
+./uploads/*
+!uploads/.gitkeep
+uploads/*/*
+!uploads/*/.gitkeep
+uploads/*/*/*
+!./uploads/*/*/.gitkeep
+
+
+hostel_portal/uploads/*
+images/*
+uploads-old/*
+assets/tmp/*
+
+scripts
